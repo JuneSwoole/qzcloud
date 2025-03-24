@@ -1,0 +1,38 @@
+{
+    "name": "qzcloud/api",
+    "description": "轻舟云受控端API调用",
+    "version": "1.0.0",
+    "keywords": [
+        "cloud",
+        "qingzhou",
+        "qzcloud",
+        "qingzhoucloud",
+        "qingzhoucloud api"
+    ],
+    "authors": [
+        {
+            "name": "june",
+            "email": "juneswoole@163.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2.5",
+        "guzzlehttp/guzzle": "^7.9"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "QZCloudApi\\": "src/"
+        },
+        "files": [
+            "src/Kernel/functions.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "Tests/"
+        }
+    }
+}
