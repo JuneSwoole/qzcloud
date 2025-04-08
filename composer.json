@@ -1,7 +1,6 @@
 {
     "name": "qzcloud/api",
     "description": "轻舟云受控端API调用",
-    "version": "1.0.0",
     "keywords": [
         "cloud",
         "qingzhou",
