@@ -6,7 +6,7 @@ namespace QZCloudApi\HyperY\HostMachine;
 
 use QZCloudApi\Interfaces\HttpRequestInterface;
 use QZCloudApi\Kernel\ProviderBase;
-use QZCloudApi\Models\HyperY\CloudHost\GetVMFlowBody;
+use QZCloudApi\Models\HyperY\HostMachine\GetVMFlowBody;
 use QZCloudApi\Models\HyperY\HostMachine\GetCompanyInfoBody;
 use QZCloudApi\Models\HyperY\HostMachine\GetISOListBody;
 use QZCloudApi\Models\HyperY\HostMachine\GetMemoryAndDiskBody;
@@ -30,7 +30,7 @@ class Info extends ProviderBase
 
     /**
      * 获取宿主机硬盘和内存信息
-     * 包括：硬盘、CPU、内存
+     * 包括：硬盘、内存
      *
      * @return Response
      * @author juneChen <juneswoole@163.com>
@@ -67,7 +67,7 @@ class Info extends ProviderBase
     }
 
     /**
-     * 获取云主机GUID
+     * 获取流量
      *
      * @return Response
      * @author juneChen <juneswoole@163.com>

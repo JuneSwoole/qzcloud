@@ -11,4 +11,4 @@ use QZCloudApi\Models\Body;
  *
  * @author juneChen <juneswoole@163.com>
  */
-class DelPortBody extends Body {}
+class GetVMFlowBody extends Body {}
